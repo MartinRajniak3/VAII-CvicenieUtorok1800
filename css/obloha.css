@@ -1,0 +1,34 @@
+body {
+    background: url("../img/sky.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+img{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.bird {
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/bird.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    background-position-x: center;
+    position: absolute;
+}
+.top {
+    top: 0;
+}
+.left {
+    left: 0;
+    transform:scalex(-1);
+}
+.right {
+    right: 0;
+}
+.bottom {
+    bottom: 0;
+}
